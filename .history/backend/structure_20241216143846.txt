@@ -1,0 +1,24 @@
+backend/
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   │   ├── API/
+│   │   │   │   ├── AttendanceController.php
+│   │   │   │   ├── EmployeeController.php
+│   │   │   │   ├── PayrollController.php
+│   │   │   │   └── DepartmentController.php
+│   │   ├── Middleware/
+│   │   └── Resources/
+│   ├── Models/
+│   │   ├── Attendance.php
+│   │   ├── Employee.php
+│   │   ├── Payroll.php
+│   │   └── Department.php
+│   └── Services/
+│       ├── PayrollService.php
+│       ├── AttendanceService.php
+│       └── ForecastingService.php
+├── database/
+│   └── migrations/
+└── routes/
+    └── api.php 
